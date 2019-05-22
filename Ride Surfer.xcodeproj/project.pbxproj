@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		30CF3505B548AA95429980DE /* Pods_Ride_Surfer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31E3668E2F9DB62A80D96AEE /* Pods_Ride_Surfer.framework */; };
+		4D07A3302235487F00037C44 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D07A32F2235487F00037C44 /* AppDelegate.swift */; };
+		4D07A3322235488000037C44 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D07A3312235488000037C44 /* ViewController.swift */; };
+		4D07A3352235488000037C44 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D07A3332235488000037C44 /* Main.storyboard */; };
+		4D07A3372235488200037C44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D07A3362235488200037C44 /* Assets.xcassets */; };
+		4D07A33A2235488200037C44 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D07A3382235488200037C44 /* LaunchScreen.storyboard */; };
+		4D07A342223548F800037C44 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4D07A341223548F800037C44 /* GoogleService-Info.plist */; };
+		4D713E0B2294690A00A35E8F /* acceptRideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D713E0A2294690A00A35E8F /* acceptRideViewController.swift */; };
+		4D794F45223D14B300BDD3C9 /* driverTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D794F44223D14B300BDD3C9 /* driverTableViewController.swift */; };
+		4DE1F0602235904F00280D84 /* ride-surfer-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DE1F05F2235904F00280D84 /* ride-surfer-icon.png */; };
+		4DF39CB22236A5730065DA99 /* riderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF39CB12236A5720065DA99 /* riderViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1B8F0ACDB060037A62FCCB9E /* Pods-Ride Surfer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ride Surfer.release.xcconfig"; path = "Pods/Target Support Files/Pods-Ride Surfer/Pods-Ride Surfer.release.xcconfig"; sourceTree = "<group>"; };
+		31E3668E2F9DB62A80D96AEE /* Pods_Ride_Surfer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ride_Surfer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D07A32C2235487F00037C44 /* Ride Surfer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ride Surfer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D07A32F2235487F00037C44 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4D07A3312235488000037C44 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4D07A3342235488000037C44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4D07A3362235488200037C44 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4D07A3392235488200037C44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4D07A33B2235488200037C44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D07A341223548F800037C44 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		4D713E0A2294690A00A35E8F /* acceptRideViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = acceptRideViewController.swift; sourceTree = "<group>"; };
+		4D794F44223D14B300BDD3C9 /* driverTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = driverTableViewController.swift; sourceTree = "<group>"; };
+		4DE1F05F2235904F00280D84 /* ride-surfer-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ride-surfer-icon.png"; sourceTree = "<group>"; };
+		4DF39CB12236A5720065DA99 /* riderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = riderViewController.swift; sourceTree = "<group>"; };
+		CFF089986AD906A526D18B48 /* Pods-Ride Surfer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ride Surfer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Ride Surfer/Pods-Ride Surfer.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4D07A3292235487F00037C44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30CF3505B548AA95429980DE /* Pods_Ride_Surfer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		250F9D1D5988592F58A9A656 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				31E3668E2F9DB62A80D96AEE /* Pods_Ride_Surfer.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4CAB31AC88B179C4D87798B3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CFF089986AD906A526D18B48 /* Pods-Ride Surfer.debug.xcconfig */,
+				1B8F0ACDB060037A62FCCB9E /* Pods-Ride Surfer.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4D07A3232235487F00037C44 = {
+			isa = PBXGroup;
+			children = (
+				4D07A32E2235487F00037C44 /* Ride Surfer */,
+				4D07A32D2235487F00037C44 /* Products */,
+				4CAB31AC88B179C4D87798B3 /* Pods */,
+				250F9D1D5988592F58A9A656 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4D07A32D2235487F00037C44 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4D07A32C2235487F00037C44 /* Ride Surfer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4D07A32E2235487F00037C44 /* Ride Surfer */ = {
+			isa = PBXGroup;
+			children = (
+				4D07A32F2235487F00037C44 /* AppDelegate.swift */,
+				4D07A3312235488000037C44 /* ViewController.swift */,
+				4D794F44223D14B300BDD3C9 /* driverTableViewController.swift */,
+				4DF39CB12236A5720065DA99 /* riderViewController.swift */,
+				4D713E0A2294690A00A35E8F /* acceptRideViewController.swift */,
+				4D07A3332235488000037C44 /* Main.storyboard */,
+				4D07A3362235488200037C44 /* Assets.xcassets */,
+				4D07A3382235488200037C44 /* LaunchScreen.storyboard */,
+				4D07A33B2235488200037C44 /* Info.plist */,
+				4D07A341223548F800037C44 /* GoogleService-Info.plist */,
+				4DE1F05F2235904F00280D84 /* ride-surfer-icon.png */,
+			);
+			path = "Ride Surfer";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4D07A32B2235487F00037C44 /* Ride Surfer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D07A33E2235488200037C44 /* Build configuration list for PBXNativeTarget "Ride Surfer" */;
+			buildPhases = (
+				C3B046D62375B37BE0898D1D /* [CP] Check Pods Manifest.lock */,
+				4D07A3282235487F00037C44 /* Sources */,
+				4D07A3292235487F00037C44 /* Frameworks */,
+				4D07A32A2235487F00037C44 /* Resources */,
+				01B7024FDE5BF7ED23E6E77A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Ride Surfer";
+			productName = "Ride Surfer";
+			productReference = 4D07A32C2235487F00037C44 /* Ride Surfer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4D07A3242235487F00037C44 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Mark-Attila Nagy";
+				TargetAttributes = {
+					4D07A32B2235487F00037C44 = {
+						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1020;
+					};
+				};
+			};
+			buildConfigurationList = 4D07A3272235487F00037C44 /* Build configuration list for PBXProject "Ride Surfer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4D07A3232235487F00037C44;
+			productRefGroup = 4D07A32D2235487F00037C44 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4D07A32B2235487F00037C44 /* Ride Surfer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4D07A32A2235487F00037C44 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D07A33A2235488200037C44 /* LaunchScreen.storyboard in Resources */,
+				4D07A342223548F800037C44 /* GoogleService-Info.plist in Resources */,
+				4D07A3372235488200037C44 /* Assets.xcassets in Resources */,
+				4D07A3352235488000037C44 /* Main.storyboard in Resources */,
+				4DE1F0602235904F00280D84 /* ride-surfer-icon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		01B7024FDE5BF7ED23E6E77A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Ride Surfer/Pods-Ride Surfer-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Ride Surfer/Pods-Ride Surfer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C3B046D62375B37BE0898D1D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Ride Surfer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4D07A3282235487F00037C44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DF39CB22236A5730065DA99 /* riderViewController.swift in Sources */,
+				4D794F45223D14B300BDD3C9 /* driverTableViewController.swift in Sources */,
+				4D713E0B2294690A00A35E8F /* acceptRideViewController.swift in Sources */,
+				4D07A3322235488000037C44 /* ViewController.swift in Sources */,
+				4D07A3302235487F00037C44 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4D07A3332235488000037C44 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D07A3342235488000037C44 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4D07A3382235488200037C44 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D07A3392235488200037C44 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4D07A33C2235488200037C44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4D07A33D2235488200037C44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4D07A33F2235488200037C44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFF089986AD906A526D18B48 /* Pods-Ride Surfer.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Ride Surfer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.NMA.Ride-Surfer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4D07A3402235488200037C44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B8F0ACDB060037A62FCCB9E /* Pods-Ride Surfer.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Ride Surfer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.NMA.Ride-Surfer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4D07A3272235487F00037C44 /* Build configuration list for PBXProject "Ride Surfer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D07A33C2235488200037C44 /* Debug */,
+				4D07A33D2235488200037C44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D07A33E2235488200037C44 /* Build configuration list for PBXNativeTarget "Ride Surfer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D07A33F2235488200037C44 /* Debug */,
+				4D07A3402235488200037C44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4D07A3242235487F00037C44 /* Project object */;
+}

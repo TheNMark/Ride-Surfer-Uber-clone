@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ride-surfer-icon.png" translatesAutoresizingMaskIntoConstraints="NO" id="Mfq-Br-ajp">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ride Surfer" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rwc-mm-AJV">
+                                <rect key="frame" x="106.33333333333333" y="169" width="201.66666666666669" height="54.666666666666657"/>
+                                <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="40"/>
+                                <color key="textColor" red="1" green="0.83234566450000003" blue="0.47320586440000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Mfq-Br-ajp" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="1II-Tb-Bmi"/>
+                            <constraint firstItem="Mfq-Br-ajp" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="topMargin" id="86g-nX-xPJ"/>
+                            <constraint firstItem="Rwc-mm-AJV" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="125" id="Fsw-Jx-JB1"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="Mfq-Br-ajp" secondAttribute="bottom" id="XpM-0B-ufk"/>
+                            <constraint firstItem="Rwc-mm-AJV" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="dlD-HV-Ap2"/>
+                            <constraint firstItem="Mfq-Br-ajp" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="uhn-sT-d5X"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="50.724637681159422" y="374.33035714285711"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="ride-surfer-icon.png" width="1280" height="1266"/>
+    </resources>
+</document>

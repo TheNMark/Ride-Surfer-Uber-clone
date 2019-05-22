@@ -1,0 +1,6 @@
+framework module Pods_Ride_Surfer {
+  umbrella header "Pods-Ride Surfer-umbrella.h"
+
+  export *
+  module * { export * }
+}
